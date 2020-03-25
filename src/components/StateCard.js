@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import styled from "styled-components";
 
@@ -49,8 +50,12 @@ const State = styled.div`
 `;
 
 const Label = styled.div`
-  font-size: 0.75rem;
+  display: flex;
+  font-size: 0.875rem;
   color: #bdc3c7;
+  @media only screen and (min-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 const StateName = styled.div`
@@ -71,13 +76,23 @@ const SecondaryData = styled.div`
 `;
 
 const CountText = styled.div`
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  @media only screen and (min-width: 768px) {
+    font-size: 1.75rem;
+  }
 `;
 
 export default function StateCard(props) {
-  const { active, confirmed, deaths, recovered, state } = props;
+  const {
+    active,
+    confirmed,
+    deaths,
+    recovered,
+    state,
+    onStateSelection
+  } = props;
   return (
-    <Wrapper>
+    <Wrapper onClick={() => props.districtData && onStateSelection(props)}>
       <State>
         <Label>State</Label>
         <StateName>{state}</StateName>
@@ -87,7 +102,18 @@ export default function StateCard(props) {
         <CountText>{active}</CountText>
       </SecondaryData>
       <SecondaryData gridName="confirmed">
-        <Label>Confirmed</Label>
+        <Label>
+          Confirmed{" "}
+          {props.districtData && (
+            <div style={{ paddingLeft: ".5rem" }}>
+              {props.districtData && (
+                <span role="img" aria-label="more">
+                  👉
+                </span>
+              )}
+            </div>
+          )}
+        </Label>
         <CountText>{confirmed}</CountText>
       </SecondaryData>
       <SecondaryData gridName="recovered">

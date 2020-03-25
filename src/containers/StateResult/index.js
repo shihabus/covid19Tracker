@@ -1,6 +1,8 @@
-import React from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { StateCard } from "../../components";
+import DistrictWise from "./DistrictWise";
 
 const Wrapper = styled.div`
   grid-area: content-1;
@@ -20,13 +22,25 @@ const Wrapper = styled.div`
 `;
 
 export default function Index(props) {
-  console.log("props", props);
   const { dataSet } = props;
+  const [selectedState, setSelectedState] = useState(null);
+
+  console.log("selectedState", selectedState);
+
   return (
     <Wrapper>
       {dataSet.map(item => (
-        <StateCard {...item} />
+        <StateCard
+          {...item}
+          onStateSelection={state => setSelectedState(state)}
+        />
       ))}
+      {selectedState && (
+        <DistrictWise
+          dataSet={selectedState}
+          onBackClicked={() => setSelectedState(null)}
+        />
+      )}
     </Wrapper>
   );
 }
