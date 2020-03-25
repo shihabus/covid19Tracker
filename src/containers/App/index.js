@@ -6,6 +6,8 @@ import fetchData from "./FetchData";
 import ScrollableCards from "../StateResult";
 import Summary from "../Summary";
 import _ from "lodash";
+import Data1 from "../../st.json";
+import Data2 from "../../dist.json";
 
 export default function Index() {
   useEffect(() => {
@@ -15,15 +17,15 @@ export default function Index() {
     };
   }, []);
 
-  async function loadData() {
-    const data1 = await fetchData("https://api.covid19india.org/data.json");
-    const data2 = await fetchData(
-      "https://api.covid19india.org/state_district_wise.json"
-    );
+  function loadData() {
+    // const data1 = await fetchData("https://api.covid19india.org/data.json");
+    // const data2 = await fetchData(
+    //   "https://api.covid19india.org/state_district_wise.json"
+    // );
 
-    const stateWise = _.get(data1, "statewise", null);
+    const stateWise = _.get(Data1, "statewise", null);
     if (stateWise) {
-      const merged = stateWise.map(x => ({ ...x, ...data2[x.state] }));
+      const merged = stateWise.map(x => ({ ...x, ...Data2[x.state] }));
       setStateWiseData(merged);
     }
   }
@@ -32,16 +34,11 @@ export default function Index() {
 
   return (
     <Background>
-      <Banner />
+      {stateWiseData && <Banner dataSet={stateWiseData[0]} />}
       {stateWiseData ? (
         <ScrollableCards dataSet={stateWiseData.slice(1)} />
       ) : (
         <Loader gridName="content-1" slogan="#StayHomeStaySafe" />
-      )}
-      {stateWiseData ? (
-        <Summary dataSet={stateWiseData[0]} />
-      ) : (
-        <Loader gridName="content-2" slogan="#GoCoronaGo" />
       )}
       <Footer />
     </Background>

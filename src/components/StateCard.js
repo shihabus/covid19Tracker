@@ -1,28 +1,34 @@
 /* eslint-disable jsx-a11y/accessible-emoji */
 import React from "react";
 import styled from "styled-components";
+import { CountDiv } from "./index";
 
 const Wrapper = styled.div`
-  background: #bf2626;
+  background: #fff;
   border-radius: 4px;
-  width: 20rem;
-  height: 10rem;
-  margin: 0.5rem 1rem;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.45);
+
+  width: ${props => props.cardWidth};
+  height: 5rem;
   display: grid;
-  color: #e1e1e1;
-  grid-template-column: 1fr 1fr;
-  gird-template-rows: 1fr 1.5rem 1.5rem;
-  padding: 0.625rem 0.5rem;
+
+  margin: 0.5rem 1rem;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2.5rem;
   grid-gap: 0.1rem;
+  justify-items: center;
+  align-items: center;
+
+  padding: 0.625rem 0.5rem;
+
   cursor: pointer;
   transition: transform 0.2s;
   grid-template-areas:
-    "state state"
-    "active confirmed" "recovered deaths";
+    "state"
+    "counts";
 
   :hover {
-    background: #bf2a37;
-    box-shadow: 0px 0px 36px 0px rgba(0, 0, 0, 0.65);
     transform: scale(1.025);
     z-index: 2;
   }
@@ -43,43 +49,39 @@ const Wrapper = styled.div`
 
 const State = styled.div`
   grid-area: state;
-  flex-direction: column;
+  flex-direction: row;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   overflow: hidden;
-`;
-
-const Label = styled.div`
-  display: flex;
-  font-size: 0.875rem;
-  color: #bdc3c7;
-  @media only screen and (min-width: 768px) {
-    font-size: 1rem;
-  }
+  width: 100%;
 `;
 
 const StateName = styled.div`
   font-size: 1rem;
-  width: calc(100% - 0.5rem);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: black;
+
   @media only screen and (min-width: 768px) {
     font-size: 1.5rem;
     width: calc(100% - 0.5rem);
   }
 `;
 
-const SecondaryData = styled.div`
-  grid-area: ${props => props.gridName};
-  flex-direction: column;
+const CountRow = styled.div`
+  grid-area: counts;
+
+  width: 100%;
   display: flex;
-  align-items: flex-start;
-  overflow: hidden;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0px 0.5rem;
 `;
 
-const CountText = styled.div`
-  font-size: 1.5rem;
-  @media only screen and (min-width: 768px) {
-    font-size: 1.75rem;
-  }
+const VerticalDivider = styled.div`
+  border: 0.35px solid rgba(0, 0, 0, 0.35);
 `;
 
 export default function StateCard(props) {
@@ -90,40 +92,37 @@ export default function StateCard(props) {
     recovered,
     state,
     onStateSelection
-  } = props;
+  } = props.isDistrict ? props.dataSet : props;
+
+  console.log("_dataSet", active);
   return (
-    <Wrapper onClick={() => props.districtData && onStateSelection(props)}>
+    <Wrapper
+      {...props}
+      onClick={() => props.districtData && onStateSelection(props)}
+    >
       <State>
-        <Label>State</Label>
         <StateName>{state}</StateName>
+        {props.districtData && (
+          <div style={{ minWidth: "92px", color: "rgba(0,0,0,0.5)" }}>
+            Click to view more
+          </div>
+        )}
       </State>
-      <SecondaryData gridName="active">
-        <Label>Active</Label>
-        <CountText>{active}</CountText>
-      </SecondaryData>
-      <SecondaryData gridName="confirmed">
-        <Label>
-          Confirmed{" "}
-          {props.districtData && (
-            <div style={{ paddingLeft: ".5rem" }}>
-              {props.districtData && (
-                <span role="img" aria-label="more">
-                  👉
-                </span>
-              )}
-            </div>
-          )}
-        </Label>
-        <CountText>{confirmed}</CountText>
-      </SecondaryData>
-      <SecondaryData gridName="recovered">
-        <Label>Recovered</Label>
-        <CountText>{recovered}</CountText>
-      </SecondaryData>
-      <SecondaryData gridName="deaths">
-        <Label>Deaths</Label>
-        <CountText>{deaths}</CountText>
-      </SecondaryData>
+      <CountRow>
+        <CountDiv label="Active" count={active} />
+        <VerticalDivider />
+        <CountDiv label="Confirmed" count={confirmed} />
+        <VerticalDivider />
+        <CountDiv label="Recovered" count={recovered} />
+        <VerticalDivider />
+        <CountDiv label="Deaths" count={deaths} />
+      </CountRow>
     </Wrapper>
   );
 }
+
+StateCard.defaultProps = {
+  onStateSelection: () => {},
+  cardWidth: "100%",
+  isDistrict: false
+};

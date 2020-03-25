@@ -3,4 +3,5 @@ import StateCard from "./StateCard";
 import Footer from "./Footer";
 import Loader from "./Loader";
 import FullPageOverLay from "./FullPageOverlay";
-export { Background, StateCard, Footer, Loader, FullPageOverLay };
+import CountDiv from "./CountDiv";
+export { Background, StateCard, Footer, Loader, FullPageOverLay, CountDiv };

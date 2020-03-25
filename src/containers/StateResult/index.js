@@ -25,8 +25,6 @@ export default function Index(props) {
   const { dataSet } = props;
   const [selectedState, setSelectedState] = useState(null);
 
-  console.log("selectedState", selectedState);
-
   return (
     <Wrapper>
       {dataSet.map(item => (

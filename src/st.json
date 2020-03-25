@@ -1,0 +1,930 @@
+{
+  "cases_time_series": [
+    {
+      "dailyconfirmed": "1",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "30 January ",
+      "totalconfirmed": "1",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "31 January ",
+      "totalconfirmed": "1",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "01 February ",
+      "totalconfirmed": "1",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "1",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "02 February ",
+      "totalconfirmed": "2",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "1",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "03 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "04 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "05 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "06 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "07 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "08 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "09 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "10 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "11 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "12 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "0"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "1",
+      "date": "13 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "1"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "14 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "1"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "15 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "1"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "1",
+      "date": "16 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "2"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "17 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "2"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "18 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "2"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "19 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "2"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "1",
+      "date": "20 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "21 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "22 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "23 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "24 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "25 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "26 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "27 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "28 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "29 February ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "0",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "01 March ",
+      "totalconfirmed": "3",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "2",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "02 March ",
+      "totalconfirmed": "5",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "1",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "03 March ",
+      "totalconfirmed": "6",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "22",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "04 March ",
+      "totalconfirmed": "28",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "2",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "05 March ",
+      "totalconfirmed": "30",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "1",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "06 March ",
+      "totalconfirmed": "31",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "3",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "07 March ",
+      "totalconfirmed": "34",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "5",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "08 March ",
+      "totalconfirmed": "39",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "9",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "09 March ",
+      "totalconfirmed": "48",
+      "totaldeceased": "0",
+      "totalrecovered": "3"
+    },
+    {
+      "dailyconfirmed": "15",
+      "dailydeceased": "0",
+      "dailyrecovered": "1",
+      "date": "10 March ",
+      "totalconfirmed": "63",
+      "totaldeceased": "0",
+      "totalrecovered": "4"
+    },
+    {
+      "dailyconfirmed": "7",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "11 March ",
+      "totalconfirmed": "70",
+      "totaldeceased": "0",
+      "totalrecovered": "4"
+    },
+    {
+      "dailyconfirmed": "12",
+      "dailydeceased": "1",
+      "dailyrecovered": "0",
+      "date": "12 March ",
+      "totalconfirmed": "82",
+      "totaldeceased": "1",
+      "totalrecovered": "4"
+    },
+    {
+      "dailyconfirmed": "9",
+      "dailydeceased": "0",
+      "dailyrecovered": "6",
+      "date": "13 March ",
+      "totalconfirmed": "91",
+      "totaldeceased": "1",
+      "totalrecovered": "10"
+    },
+    {
+      "dailyconfirmed": "16",
+      "dailydeceased": "1",
+      "dailyrecovered": "0",
+      "date": "14 March ",
+      "totalconfirmed": "107",
+      "totaldeceased": "2",
+      "totalrecovered": "10"
+    },
+    {
+      "dailyconfirmed": "6",
+      "dailydeceased": "0",
+      "dailyrecovered": "3",
+      "date": "15 March ",
+      "totalconfirmed": "113",
+      "totaldeceased": "2",
+      "totalrecovered": "13"
+    },
+    {
+      "dailyconfirmed": "14",
+      "dailydeceased": "0",
+      "dailyrecovered": "1",
+      "date": "16 March ",
+      "totalconfirmed": "127",
+      "totaldeceased": "2",
+      "totalrecovered": "14"
+    },
+    {
+      "dailyconfirmed": "19",
+      "dailydeceased": "1",
+      "dailyrecovered": "1",
+      "date": "17 March ",
+      "totalconfirmed": "146",
+      "totaldeceased": "3",
+      "totalrecovered": "15"
+    },
+    {
+      "dailyconfirmed": "25",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "18 March ",
+      "totalconfirmed": "171",
+      "totaldeceased": "3",
+      "totalrecovered": "15"
+    },
+    {
+      "dailyconfirmed": "28",
+      "dailydeceased": "1",
+      "dailyrecovered": "5",
+      "date": "19 March ",
+      "totalconfirmed": "199",
+      "totaldeceased": "4",
+      "totalrecovered": "20"
+    },
+    {
+      "dailyconfirmed": "59",
+      "dailydeceased": "0",
+      "dailyrecovered": "3",
+      "date": "20 March ",
+      "totalconfirmed": "258",
+      "totaldeceased": "4",
+      "totalrecovered": "23"
+    },
+    {
+      "dailyconfirmed": "76",
+      "dailydeceased": "0",
+      "dailyrecovered": "0",
+      "date": "21 March ",
+      "totalconfirmed": "334",
+      "totaldeceased": "4",
+      "totalrecovered": "23"
+    },
+    {
+      "dailyconfirmed": "69",
+      "dailydeceased": "3",
+      "dailyrecovered": "0",
+      "date": "22 March ",
+      "totalconfirmed": "403",
+      "totaldeceased": "7",
+      "totalrecovered": "23"
+    },
+    {
+      "dailyconfirmed": "102",
+      "dailydeceased": "2",
+      "dailyrecovered": "2",
+      "date": "23 March ",
+      "totalconfirmed": "505",
+      "totaldeceased": "9",
+      "totalrecovered": "25"
+    },
+    {
+      "dailyconfirmed": "66",
+      "dailydeceased": "1",
+      "dailyrecovered": "15",
+      "date": "24 March ",
+      "totalconfirmed": "571",
+      "totaldeceased": "10",
+      "totalrecovered": "40"
+    },
+    {
+      "dailyconfirmed": "",
+      "dailydeceased": "",
+      "dailyrecovered": "",
+      "date": "25 March ",
+      "totalconfirmed": "",
+      "totaldeceased": "",
+      "totalrecovered": ""
+    }
+  ],
+  "key_values": [
+    {
+      "confirmeddelta": "29",
+      "deceaseddelta": "0",
+      "lastupdatedtime": "March 25, 2020 at 3:04 pm",
+      "recovereddelta": "0",
+      "statesdelta": "0"
+    }
+  ],
+  "statewise": [
+    {
+      "active": "550",
+      "confirmed": "600",
+      "deaths": "10",
+      "lastupdatedtime": "March 25, 2020 at 3:04 pm",
+      "recovered": "40",
+      "state": "Total"
+    },
+    {
+      "active": "105",
+      "confirmed": "109",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "4",
+      "state": "Kerala"
+    },
+    {
+      "active": "114",
+      "confirmed": "116",
+      "deaths": "2",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Maharashtra"
+    },
+    {
+      "active": "37",
+      "confirmed": "41",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "3",
+      "state": "Karnataka"
+    },
+    {
+      "active": "38",
+      "confirmed": "39",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "1",
+      "state": "Telangana"
+    },
+    {
+      "active": "37",
+      "confirmed": "38",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Gujarat"
+    },
+    {
+      "active": "24",
+      "confirmed": "35",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "11",
+      "state": "Uttar Pradesh"
+    },
+    {
+      "active": "33",
+      "confirmed": "36",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "3",
+      "state": "Rajasthan"
+    },
+    {
+      "active": "23",
+      "confirmed": "30",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "6",
+      "state": "Delhi"
+    },
+    {
+      "active": "19",
+      "confirmed": "30",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "11",
+      "state": "Haryana"
+    },
+    {
+      "active": "28",
+      "confirmed": "29",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Punjab"
+    },
+    {
+      "active": "21",
+      "confirmed": "23",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "1",
+      "state": "Tamil Nadu"
+    },
+    {
+      "active": "13",
+      "confirmed": "13",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Ladakh"
+    },
+    {
+      "active": "8",
+      "confirmed": "9",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "West Bengal"
+    },
+    {
+      "active": "8",
+      "confirmed": "8",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Andhra Pradesh"
+    },
+    {
+      "active": "7",
+      "confirmed": "7",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Chandigarh"
+    },
+    {
+      "active": "14",
+      "confirmed": "14",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Madhya Pradesh"
+    },
+    {
+      "active": "6",
+      "confirmed": "6",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Jammu and Kashmir"
+    },
+    {
+      "active": "4",
+      "confirmed": "4",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Uttarakhand"
+    },
+    {
+      "active": "2",
+      "confirmed": "3",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Himachal Pradesh"
+    },
+    {
+      "active": "3",
+      "confirmed": "4",
+      "deaths": "1",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Bihar"
+    },
+    {
+      "active": "2",
+      "confirmed": "2",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Odisha"
+    },
+    {
+      "active": "1",
+      "confirmed": "1",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Puducherry"
+    },
+    {
+      "active": "1",
+      "confirmed": "1",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Chhattisgarh"
+    },
+    {
+      "active": "1",
+      "confirmed": "1",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Manipur"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Andaman and Nicobar Islands"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Assam"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Meghalaya"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Tripura"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Goa"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Arunachal Pradesh"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Jharkhand"
+    },
+    {
+      "active": "1",
+      "confirmed": "1",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Mizoram"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Nagaland"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Sikkim"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Dadra and Nagar Haveli"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Daman and Diu"
+    },
+    {
+      "active": "0",
+      "confirmed": "0",
+      "deaths": "0",
+      "lastupdatedtime": "",
+      "recovered": "0",
+      "state": "Lakshadweep"
+    }
+  ],
+  "tested": [
+    {
+      "source": "Press_Release_ICMR_13March2020.pdf",
+      "totalindividualstested": "5900",
+      "totalpositivecases": "78",
+      "totalsamplestested": "6500",
+      "updatetimestamp": "13/3/2020 00:00"
+    },
+    {
+      "source": "ICMR_website_update_18March_6PM_IST.pdf",
+      "totalindividualstested": "12235",
+      "totalpositivecases": "150",
+      "totalsamplestested": "13125",
+      "updatetimestamp": "18/3/2020 18:00"
+    },
+    {
+      "source": "ICMR_website_update_19March_10AM_IST_V2.pdf",
+      "totalindividualstested": "12426",
+      "totalpositivecases": "168",
+      "totalsamplestested": "13316",
+      "updatetimestamp": "19/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_19March_6PM_IST.pdf",
+      "totalindividualstested": "13285",
+      "totalpositivecases": "182",
+      "totalsamplestested": "14175",
+      "updatetimestamp": "19/3/2020 18:00"
+    },
+    {
+      "source": "ICMR_website_update_20March_10AM_IST.pdf",
+      "totalindividualstested": "13486",
+      "totalpositivecases": "206",
+      "totalsamplestested": "14376",
+      "updatetimestamp": "20/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_20March_6PM_IST.pdf",
+      "totalindividualstested": "14514",
+      "totalpositivecases": "236",
+      "totalsamplestested": "15404",
+      "updatetimestamp": "20/3/2020 18:00"
+    },
+    {
+      "source": "ICMR_website_update_21March_10AM_IST.pdf",
+      "totalindividualstested": "14811",
+      "totalpositivecases": "271",
+      "totalsamplestested": "15701",
+      "updatetimestamp": "21/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_21March_6PM_IST.pdf",
+      "totalindividualstested": "16021",
+      "totalpositivecases": "315",
+      "totalsamplestested": "16911",
+      "updatetimestamp": "21/3/2020 18:00"
+    },
+    {
+      "source": "ICMR_website_update_22March_10AM_IST.pdf",
+      "totalindividualstested": "16109",
+      "totalpositivecases": "341",
+      "totalsamplestested": "16999",
+      "updatetimestamp": "22/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_22March_6PM_IST.pdf",
+      "totalindividualstested": "17237",
+      "totalpositivecases": "396",
+      "totalsamplestested": "18127",
+      "updatetimestamp": "22/3/2020 18:00"
+    },
+    {
+      "source": "ICMR_website_update_23March_10AM_IST.pdf",
+      "totalindividualstested": "17493",
+      "totalpositivecases": "415",
+      "totalsamplestested": "18383",
+      "updatetimestamp": "23/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_23March_8PM_IST.pdf",
+      "totalindividualstested": "19817",
+      "totalpositivecases": "471",
+      "totalsamplestested": "20707",
+      "updatetimestamp": "23/3/2020 20:00"
+    },
+    {
+      "source": "ICMR_website_update_24March_10AM_IST.pdf",
+      "totalindividualstested": "19974",
+      "totalpositivecases": "482",
+      "totalsamplestested": "20864",
+      "updatetimestamp": "24/3/2020 10:00"
+    },
+    {
+      "source": "ICMR_website_update_24March_8PM_IST.pdf",
+      "totalindividualstested": "21804",
+      "totalpositivecases": "536",
+      "totalsamplestested": "22694",
+      "updatetimestamp": "24/3/2020 20:00"
+    },
+    {
+      "source": "ICMR_website_update_25March_10AM_IST.pdf",
+      "totalindividualstested": "22038",
+      "totalpositivecases": "539",
+      "totalsamplestested": "22928",
+      "updatetimestamp": "25/3/2020 10:00"
+    }
+  ]
+}

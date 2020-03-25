@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Wrapper = styled.div`
   grid-area: footer;
-  color: white;
+  color: rgba(0, 0, 0, 0.5);
   text-align: center;
   padding-bottom: 0.5rem;
   @media only screen and (min-width: 768px) {
@@ -21,16 +21,16 @@ export default function Footer() {
       <Divider />
       Courtesy @
       <a
-        style={{ color: "white", paddingLeft: "0.2rem" }}
+        style={{ paddingLeft: "0.2rem" }}
         href="https://api.covid19india.org"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Covid19 India Org.
+        covid19India
       </a>{" "}
       |
       <a
-        style={{ color: "white", paddingLeft: "0.2rem" }}
+        style={{ paddingLeft: "0.2rem" }}
         href="https://github.com/shihabus"
         target="_blank"
         rel="noopener noreferrer"
